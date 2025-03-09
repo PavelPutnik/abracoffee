@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АбраКадабра Кофе</title>
+    <!-- link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- link swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="images/ico.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">☕АбраКадабра</h2>
+            </a>
+            <ul class="nav-menu">
+
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Меню</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">Коллектив</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Галерея</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Контакты</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">АбраКадабра</h2>
+                    <h3 class="subtitle">Добавьте магии вкуса кофе в свой день!</h3>
+                    <p class="description">Хотите выпить вкусный и дешевый кофе? Вам - к нам!</p>
+                    <div class="buttons">
+                        <a href="#" class="button order-now">Заказать</a>
+                        <a href="#contact" class="button contact-us">Связаться с нами</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/coffee-hero-section.png" alt="None" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="about-section" id="about">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/p1_2.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">О нас</h2>
+                    <p class="text">Наше кофе содержит только отборные зерна. У нас вы сможете купить не только самый вкусный кофе в мире, но и закуски к нему! Наша сеть кофеен существует на рынке более 5 лет!</p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-vk"></i></a>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <!-- menu section -->
+         <section class="menu-section" id="menu">
+            <h2 class="section-title">наше меню</h2>
+            <div class="section-content">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <img src="images/hot-beverages.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">Кофе</h3>
+                        <p class="text">Фирменный напиток от бариста</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/special-combo.png" alt="Cold Beverages" class="menu-image">
+                        <h3 class="name">МегаБокс</h3>
+                        <p class="text">МегаБокс представляет из себя сет из напитка, бургера, хот-дога и картошки</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/cold-beverages.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">Лимонод</h3>
+                        <p class="text">Вологодский лимонад</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/menu3.jpg" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">Горячие бутерброды</h3>
+                        <p class="text">Бутерброд, согревающий и заряжающий в любое время дня и ночи</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/menu6.jpg" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">Тирамису</h3>
+                        <p class="text">Десерт, который в наивысшей степени подходит для кофе</p>
+                    </li>
+                    <li class="menu-item">
+                        <img src="images/menu4.jpg" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">Чудо</h3>
+                        <p class="text">Бургер, в котором содержатся случайные ингридиенты</p>
+                    </li>
+                </ul>
+            </div>
+         </section>
+
+         <!-- коллектив сектион -->
+          <section class="testimonials-section" id="testimonials">
+            <h2 class="section-title">Наша команда</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="images/p1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Михаил</h3>
+                                <i class="feedback">Главный дегустатор. Бариста</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/p4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Павел</h3>
+                                <i class="feedback">Владелец</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/p6.jpg" alt="User" class="user-image">
+                                <h3 class="name">Дарья</h3>
+                                <i class="feedback">Дизайнер</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/p2_3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Егор</h3>
+                                <i class="feedback">Повар</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/p5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Лев</h3>
+                                <i class="feedback">Контент-мейкер. Монтажер</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-slide-button swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- галерея сектион -->
+           <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Галерея</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+           </section>
+
+           <!-- контакты -->
+            <section class="contact-section" id="contact">
+                <h2 class="section-title">Контакты</h2>
+                <div class="section-content">
+                    <ul class="contact-info-list">
+                        <li class="contact-info">
+                            <i class="fa-solid fa-location-crosshairs"></i>
+                            <p>г. Вологда, ул. Абра, д. Кадабра</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-envelope"></i>
+                            <p>abra@cadabra.ru</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+7 (800) 555 - 35 - 35</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Понедельник - Суббота: С 7.00 до 19.00</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>Воскресенье: Выходной</p>
+                        </li>
+                        <li class="contact-info">
+                            <i class="fa-solid fa-globe"></i>
+                            <p>https://pavelputnik.github.io/Cofffee/</p>
+                        </li>
+                    </ul>
+
+                    <form action="https://formspree.io/f/xdkaqokr" class="contact-form" method="post">
+                        <input type="text" placeholder="Ваше имя" class="form-input" required name="name">
+                        <input type="email" placeholder="Ваш адрес почты" class="form-input" required name="email">
+                        <textarea placeholder="Ваше обращение" class="form-input" name="message"></textarea>
+                        <button class="submit-button">Отправить</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- footer -->
+             <footer class="footer-section">
+                <div class="section-content">
+                    <p class="copyright-text">©️ 2025 AbraCadabra</p>
+
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-vk"></i></a>
+                    </div>
+
+                    <p class="policy-text">
+                        <a href="#" class="policy-link">Privacy policy</a>
+                        <span class="separator">•</span>
+                        <a href="#" class="policy-link">Refund policy</a>
+                    </p>
+                </div>
+             </footer>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
